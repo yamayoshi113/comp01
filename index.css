@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body {
+    color: #383e45;
+    font-size: 0.9rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  li {
+    list-style: none;
+  }
+
+/* ヘッダー開始 */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto 100px auto;
+    padding: 0 4%;
+    text-align: center;
+}
+
+nav{
+    display: block;
+}
+
+.logo {
+    width: 120px;
+    line-height: 1px;
+    padding: 10px 0;
+}
+
+.logo a {
+display: block  ;
+}
+
+#header ul {
+    display: flex;
+    padding: 10px 0;
+  }
+  #header li {
+    margin-left: 30px;
+  }
+  #header li a {
+    color: #24292e;
+  }
+  #header li a:hover {
+    opacity: 0.7;
+  }
+
+/* ヘッダー終了 */
+
+/* メイン開始 */
+
+/* セクション１開始 */
+#about .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+#about .text {
+  text-align: left;
+}
+
+
+
+/* セクション２終了 */
+
+/* セクション２開始 */
+#cat ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cat li {
+  width: 40%;
+}
+
+
+/* セクション２終了 */
+
+/* フッター開始 */
+
+#footer {
+  padding: 10px 0;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+/* フッター終了 */
